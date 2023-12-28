@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login page</title>
+    <link rel="stylesheet" href="CSS\loginpage.css">
+    <script src = "templates\javascript\loginpage.js"></script>
+    
+</head>
+<form action="http://localhost:8080/Library/login.jsp" method="get">
+<body>
+    <div class="full-page">
+        <div >
+         <button class="BUTTON" id="log_button" onclick="location.href='index.html'">Back</button>
+         </div>
+        <div class="sub-page">
+            <div class="navigation-bar">
+                <div class="logo">
+                    
+                </div>
+                <nav>
+                   
+                </nav>
+                
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <div class="form-box">
+                        <div class="form">
+                              <center><h1 class="main-heading">Login Form</h1></center>
+                            <form class="login-form" id = "login">
+				                <input type="text" id = "username" name = "t1" placeholder="Username" required>
+				                <input type="password" id = "password" name = "t2" placeholder="password" required>
+				                <button type ="submit">LOGIN</button>
+                                <h3 class="message">Don't have account ?</h3><a href="createacc.jsp">create account</a>
+				            </form>
+                            
+			             </div>
+	                </div>
+                </div>
+                <div class="col-1">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
+

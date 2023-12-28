@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+ <title>Table layout</title>
+ <link rel="stylesheet" type="text/css" href="CSS/profile.css">
+
+</head>
+
+<body>
+    <div class="full-page"></div>
+        
+               
+            </form>
+        <div class="filter">
+            <center><h1 class="main-heading">Students Dash-Board</h1></center>
+        </div>
+
+ <table >
+<thead>
+ <tr>
+    <th>Book ID </th>
+    <th>ISBN number</th>
+    <th> Issued Date </th>
+    <th>Return Date  </th>
+    <th>Penalty     </th>
+ </tr>
+</thead>
+<tbody>
+ {% for book_record in book_records %}
+  <tr>
+
+ <td>{{ book_record[0] }}</td>
+ <td>{{ book_record[1] }}</td>
+ <td>{{ book_record[2] }}</td>
+ <td>{{ book_record[3] }}</td>
+ <td>{{ book_record[4] }}</td>
+ </tr>
+ {% endfor %}
+   
+</tbody>
+ </table>
+
+</div>
+ </body>
+
+</html>

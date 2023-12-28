@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS\add_book.css">
+    </script>
+    <title>Borrow Book</title>
+  </head>
+  <body>
+    <!-- logout button -->
+    <div >
+      <button class="BUTTON" id="log_button" onclick="location.href='Adminpage.html'">Back</button>
+    </div>
+
+    <div class=main_header>
+      <div class="heading">
+          <h1 id="portal">Library Management System</h1>
+      </div>
+    </div>
+
+    <hr>
+
+    <h1 id="title">Borrow Book</h1>
+
+	<form action="http://localhost:8080/Library/Borrowbook.jsp" method="post">
+            <p>Fill the details to borrow a book</p>
+            
+            <label id="name-label" for="book_name">Username</label>
+            <input id="book_code" name = "t1" type="text" placeholder="Enter Username" required>
+            
+            <!-- book name -->
+            <label id="name-label" for="book_name">Book Name</label>
+			      <input id="book_name" name = "t2" type="text" placeholder="Enter book name" required>
+
+            <!-- authors name -->
+            <label id="name-label" for="book_name">Book ID</label>
+            <input id="author1" name = "t3" type="number" placeholder="Enter book code" required>
+            
+            
+            
+            
+            <label id="name-label" for="subject">Borrow Date</label>
+            <input id="Subject" name = "t4" type="date" placeholder="Enter borrow date" required>
+
+			<button id="submit">Submit</button>
+    
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homepage</title>
+  <link rel="stylesheet" type="text/css" href="CSS\index.css">
+  <script src = "javascript\index.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Library</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="goToHomePage()">Home</a></li>
+        <li><a href="#" onclick="loadAboutPage()">About Us</a></li>
+        <li><a href="#" onclick ="location.href='loginpage.html'">Login</a></li>
+      </ul>
+    </nav>
+     <link rel="stylesheet" type="text/css" href="style.css">
+  </header>
+  
+  <main id= "main-content">
+    <section>
+      <form id = "search-form">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+      </form>
+    </section>
+   </main>
+
+  <div id = "about-page" style="display:none;">
+     <h2> About Us: </h2>
+     <p>Working together with gayatri and rachana</p>
+  </div>
+</body>
+</html>

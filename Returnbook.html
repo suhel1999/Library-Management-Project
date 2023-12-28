@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS\add_book.css">
+    </script>
+    <title>Return Book</title>
+  </head>
+  <body>
+    <!-- logout button -->
+    <div >
+      <button class="BUTTON" id="log_button" onclick="location.href='Adminpage.html'">Back</button>
+    </div>
+
+    <div class=main_header>
+      <div class="heading">
+          <h1 id="portal">Library Management System</h1>
+      </div>
+    </div>
+
+    <hr>
+
+    <h1 id="title">Return Book</h1>
+
+	<form action="http://localhost:8080/Library/Returnbook.jsp" method="get">
+            <p>Fill the details to return a book</p>
+            
+            <!-- book name -->
+            <label id="name-label" for="book_name">Book Name</label>
+			      <input id="book_name" name = "t1" type="text" placeholder="Enter book name" required>
+
+            <!-- authors name -->
+            <label id="name-label" for="book_name">Book ID</label>
+            <input id="author1" name = "t2" type="number" placeholder="Enter Book Code" required>
+            
+            
+            <label id="name-label" for="book_name">Return Date</label>
+            <input id="author2" name = "t3" type="Date" placeholder="Enter return date" >
+
+            <label id="name-label" for="book_name">Penalty</label>
+            <input id="Subject" name = "t4" type="number" placeholder="Enter penalty Amount" required>
+
+			<button id="submit">Submit</button>
+    
+
+    </div>
+  </body>
+</html>

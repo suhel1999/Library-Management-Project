@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS\add_book.css">
+    </script>
+    <title>Add book</title>
+  </head>
+  <body>
+    <!-- logout button -->
+    <div >
+      <button class="BUTTON" id="log_button" onclick="location.href='Adminpage.html'">Back</button>
+    </div>
+
+    <div class=main_header>
+      <div class="heading">
+          <h1 id="portal">Library Management System</h1>
+      </div>
+    </div>
+
+    <hr>
+
+    <h1 id="title">Add Book</h1>
+<center>
+	<fieldset>
+      <form action="http://localhost:8080/Library/add_book.jsp" method="post">
+        <p>Fill in the details of the book</p>
+
+        <!-- Book ID -->
+        <div class="form-group">
+          <label for="book_code">Book ID</label>
+          <input id="book_code" type="text" name="t1" placeholder="Enter Book Code" required>
+        </div>
+
+        <!-- Book Name -->
+        <div class="form-group">
+          <label for="book_name">Book Name</label>
+          <input id="book_name" type="text" name="t2" placeholder="Enter book name" required>
+        </div>
+
+        <!-- ISBN no. -->
+        <div class="form-group">
+          <label for="book_isbn">ISBN no.</label>
+          <input id="book_isbn" type="text" name="t3" placeholder="Enter ISBN number" required>
+        </div>
+
+        <!-- Author Name(1) -->
+        <div class="form-group">
+          <label for="author1">Author Name(1)</label>
+          <input id="author1" type="text" name="t4" placeholder="Enter First Author name" required>
+        </div>
+
+        <!-- Author Name(2) -->
+        <div class="form-group">
+          <label for="author2">Author Name(2)</label>
+          <input id="author2" type="text" name="t5" placeholder="Enter Second Author name">
+        </div>
+
+        <!-- Subject -->
+        <div class="form-group">
+          <label for="Subject">Subject</label>
+          <input id="Subject" type="text" name="t6" placeholder="Enter Subject" required>
+        </div>
+
+        <!-- Book Link -->
+        <div class="form-group">
+          <label for="Subject">Book Link</label>
+          <input id="Subject" type="text" name="t7" placeholder="Enter Book Link" required>
+        </div>
+
+        <button id="submit">Add Book</button>
+      </form>
+    </fieldset>
+    </center>
+
+    </div>
+  </body>
+</html>
