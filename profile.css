@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+   }
+   .filter{
+       width: 1266px;
+   
+       height: 559px;
+   
+       position: absolute;
+   
+       background: url(https://s2982.pcdn.co/wp-content/uploads/2020/06/library-libraries-feature-700x375-1.jpg.webp);
+   
+   
+       background-size: cover;
+   
+       background-position: center;
+   
+       left: 50px;
+   
+       top: 50px;
+   }
+   table{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(87, 82, 82, 0.7);
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+   
+   }
+   
+   
+   td , th{
+    padding: 15 px 20px;
+    text-align: center;
+    background:#eeeeee;
+    
+   
+   }
+   
+   .full-page
+   
+   {
+   
+       height: 100vh;
+   
+       width: 100%;
+   
+       background: rgb(206, 17, 64);
+   
+       position: absolute;
+   
+   }
+   
+   
+   th{
+    background-color: #cf2e3b;
+    color: #f5f2f2;
+    font-family: 'Open Sans',Sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+   
+   }
+   tr{
+    width: 200%;
+    background-color: #e6e2e2;
+    font-family: 'Montserrat', sans-serif;
+   }
+   tr:nth-child(even){
+    background-color: #eeeeee;
+   }
